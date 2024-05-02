@@ -7,19 +7,22 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "install": "node install.js"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.24.1",
-    "@strapi/plugin-users-permissions": "4.24.1",
-    "@strapi/plugin-i18n": "4.24.1",
     "@strapi/plugin-cloud": "4.24.1",
-    "better-sqlite3": "8.6.0",
+    "@strapi/plugin-i18n": "4.24.1",
+    "@strapi/plugin-users-permissions": "4.24.1",
+    "@strapi/strapi": "4.24.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "sqlite3": "^5.0.2",
     "styled-components": "5.3.3"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^7.4.3"
   },
   "author": {
     "name": "A Strapi developer"
